@@ -1,0 +1,17 @@
+{
+  "name": "mavis-food-ordering",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lightweight ordering and order-management website for a small food business: persistence foundation",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "migrate": "node src/migrate.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0"
+  }
+}
